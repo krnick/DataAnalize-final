@@ -1,0 +1,1 @@
+python python-tf-idf.py  > results.txt
