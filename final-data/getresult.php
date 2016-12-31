@@ -62,7 +62,7 @@ if ($result->num_rows > 0) {
         echo    "<p>".$row["filename"]."content" .$row["content"]." ". " </p><br><br><br><br><br>";
     }
 } else {
-    echo "0 results";
+    echo "<img src='no-result.png'>";
 }
 $conn->close();
 ?>
